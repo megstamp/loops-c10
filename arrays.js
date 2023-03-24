@@ -2,10 +2,15 @@
 
 const fruits = ['apple', 'banana', 'orange', 'kiwi', 'grapes']
 
-// write loop here...
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i])
+}
 
 
 // Given the following array, output each student's first name
+
+
+//these are objects in an array:
 
 const students = [
   {
@@ -23,11 +28,10 @@ const students = [
     lastName: 'Stamper',
     gender: 'female',
   },
-  {
-    firstName: 'Meghann',
-    lastName: 'Stamper',
-    gender: 'female',
-  },
+
 ]
 
-// write loop here....
+for (let i = 0; i < students.length; i++) {
+console.log(students[i].firstName)
+}
+
